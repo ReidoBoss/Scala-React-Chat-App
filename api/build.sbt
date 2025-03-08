@@ -15,3 +15,12 @@ libraryDependencies ++= Seq(
   "org.apache.pekko"       %% "pekko-cluster-typed"         % pekkoVersion,
   "org.apache.pekko"       %% "pekko-serialization-jackson" % pekkoVersion
 )
+
+/**
+ * we will use this for development only but we've also already setup this on
+ * the application.conf because it will be needed in production
+ */
+PlayKeys.devSettings ++= Seq(
+  "play.server.websocket.periodic-keep-alive-max-idle" -> "10 seconds",
+  "play.server.websocket.periodic-keep-alive-mode"     -> "pong"
+)
