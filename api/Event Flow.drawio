@@ -1,17 +1,17 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="24.8.0">
   <diagram name="Page-1" id="BQkFQnIl89M9SugGBp6n">
-    <mxGraphModel dx="1593" dy="966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2607" dy="1580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="HDtp9w7ZAtMnRDxFhko9-32" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="25" y="110" width="985" height="450" as="geometry" />
+          <mxGeometry x="17.5" y="110" width="985" height="450" as="geometry" />
         </mxCell>
         <mxCell id="HDtp9w7ZAtMnRDxFhko9-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HDtp9w7ZAtMnRDxFhko9-19" target="HDtp9w7ZAtMnRDxFhko9-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HDtp9w7ZAtMnRDxFhko9-19" value="Client(User)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="245" width="30" height="60" as="geometry" />
+          <mxGeometry x="70" y="255" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HDtp9w7ZAtMnRDxFhko9-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HDtp9w7ZAtMnRDxFhko9-21" target="HDtp9w7ZAtMnRDxFhko9-22">
           <mxGeometry relative="1" as="geometry" />
@@ -31,29 +31,116 @@
         <mxCell id="HDtp9w7ZAtMnRDxFhko9-23" value="SendMessageCommand" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="250" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="HDtp9w7ZAtMnRDxFhko9-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HDtp9w7ZAtMnRDxFhko9-24" target="HDtp9w7ZAtMnRDxFhko9-33">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="HDtp9w7ZAtMnRDxFhko9-24" value="ChatRoomActor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="820" y="250" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="HDtp9w7ZAtMnRDxFhko9-30" value="User Sends a Message" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="460" y="150" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HDtp9w7ZAtMnRDxFhko9-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HDtp9w7ZAtMnRDxFhko9-33" target="HDtp9w7ZAtMnRDxFhko9-35">
+        <UserObject label="&lt;li data-end=&quot;2928&quot; data-start=&quot;2866&quot;&gt;&lt;code data-end=&quot;2888&quot; data-start=&quot;2868&quot;&gt;SendMessageCommand&lt;/code&gt; is validated by &lt;code data-end=&quot;2925&quot; data-start=&quot;2905&quot;&gt;ChatCommandHandler&lt;/code&gt;.&lt;/li&gt;&lt;li data-end=&quot;2928&quot; data-start=&quot;2866&quot;&gt;If valid, it&#39;s sent to &lt;code data-end=&quot;2969&quot; data-start=&quot;2954&quot;&gt;ChatRoomActor&lt;/code&gt; for processing. If Invalid send back to client&lt;/li&gt;&lt;br&gt;&lt;li data-end=&quot;2987&quot; data-start=&quot;2929&quot;&gt;&lt;/li&gt;" placeholders="1" id="HDtp9w7ZAtMnRDxFhko9-41">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="310" y="360" width="480" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HDtp9w7ZAtMnRDxFhko9-43" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="27.5" y="620" width="985" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="HDtp9w7ZAtMnRDxFhko9-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HDtp9w7ZAtMnRDxFhko9-45" target="HDtp9w7ZAtMnRDxFhko9-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HDtp9w7ZAtMnRDxFhko9-33" value="MessageSentEvent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="820" y="370" width="160" height="70" as="geometry" />
+        <mxCell id="HDtp9w7ZAtMnRDxFhko9-45" value="Client(User)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="765" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HDtp9w7ZAtMnRDxFhko9-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HDtp9w7ZAtMnRDxFhko9-35" target="HDtp9w7ZAtMnRDxFhko9-37">
+        <mxCell id="HDtp9w7ZAtMnRDxFhko9-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HDtp9w7ZAtMnRDxFhko9-47" target="HDtp9w7ZAtMnRDxFhko9-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HDtp9w7ZAtMnRDxFhko9-35" value="ChatEventHandler" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="370" width="160" height="70" as="geometry" />
+        <mxCell id="HDtp9w7ZAtMnRDxFhko9-47" value="Websocket Controller" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="760" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="HDtp9w7ZAtMnRDxFhko9-37" value="Broadcast to users" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="370" width="160" height="70" as="geometry" />
+        <mxCell id="HDtp9w7ZAtMnRDxFhko9-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HDtp9w7ZAtMnRDxFhko9-49" target="HDtp9w7ZAtMnRDxFhko9-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HDtp9w7ZAtMnRDxFhko9-49" value="ChatCommandHandler" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="760" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HDtp9w7ZAtMnRDxFhko9-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HDtp9w7ZAtMnRDxFhko9-51" target="HDtp9w7ZAtMnRDxFhko9-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HDtp9w7ZAtMnRDxFhko9-51" value="SendMessageCommand" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="760" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HDtp9w7ZAtMnRDxFhko9-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HDtp9w7ZAtMnRDxFhko9-52" target="HDtp9w7ZAtMnRDxFhko9-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HDtp9w7ZAtMnRDxFhko9-52" value="ChatRoomActor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="760" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HDtp9w7ZAtMnRDxFhko9-53" value="ChatRoomActor Processes Command" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="470" y="660" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HDtp9w7ZAtMnRDxFhko9-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HDtp9w7ZAtMnRDxFhko9-55" target="HDtp9w7ZAtMnRDxFhko9-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HDtp9w7ZAtMnRDxFhko9-55" value="MessageSentEvent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="870" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HDtp9w7ZAtMnRDxFhko9-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HDtp9w7ZAtMnRDxFhko9-57" target="HDtp9w7ZAtMnRDxFhko9-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HDtp9w7ZAtMnRDxFhko9-57" value="ChatEventHandler" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="870" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HDtp9w7ZAtMnRDxFhko9-58" value="Broadcast to users" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="870" width="160" height="70" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;li data-end=&quot;3189&quot; data-start=&quot;3115&quot;&gt;The actor &lt;strong data-end=&quot;3157&quot; data-start=&quot;3127&quot;&gt;emits a &lt;code data-end=&quot;3155&quot; data-start=&quot;3137&quot;&gt;MessageSentEvent&lt;/code&gt;&lt;/strong&gt; after persisting the message.&lt;/li&gt;&lt;li data-end=&quot;3273&quot; data-start=&quot;3190&quot;&gt;&lt;code data-end=&quot;3210&quot; data-start=&quot;3192&quot;&gt;ChatEventHandler&lt;/code&gt; listens for &lt;code data-end=&quot;3241&quot; data-start=&quot;3223&quot;&gt;MessageSentEvent&lt;/code&gt; and broadcasts it to clients.&lt;br&gt;&lt;/li&gt;" placeholders="1" id="HDtp9w7ZAtMnRDxFhko9-59">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="300" y="970" width="480" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HDtp9w7ZAtMnRDxFhko9-62" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="360" width="985" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="HDtp9w7ZAtMnRDxFhko9-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HDtp9w7ZAtMnRDxFhko9-64" target="HDtp9w7ZAtMnRDxFhko9-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HDtp9w7ZAtMnRDxFhko9-64" value="Client(User)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1182.5" y="505" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HDtp9w7ZAtMnRDxFhko9-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HDtp9w7ZAtMnRDxFhko9-66" target="HDtp9w7ZAtMnRDxFhko9-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HDtp9w7ZAtMnRDxFhko9-66" value="Websocket Controller" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1282.5" y="500" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HDtp9w7ZAtMnRDxFhko9-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HDtp9w7ZAtMnRDxFhko9-68" target="HDtp9w7ZAtMnRDxFhko9-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HDtp9w7ZAtMnRDxFhko9-68" value="ChatCommandHandler" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1512.5" y="500" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HDtp9w7ZAtMnRDxFhko9-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HDtp9w7ZAtMnRDxFhko9-70" target="HDtp9w7ZAtMnRDxFhko9-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HDtp9w7ZAtMnRDxFhko9-70" value="JoinRoomCommand" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1722.5" y="500" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HDtp9w7ZAtMnRDxFhko9-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HDtp9w7ZAtMnRDxFhko9-71" target="HDtp9w7ZAtMnRDxFhko9-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HDtp9w7ZAtMnRDxFhko9-71" value="ChatRoomActor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1932.5" y="500" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HDtp9w7ZAtMnRDxFhko9-72" value="User Joins a Room" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1572.5" y="400" width="100" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;li data-end=&quot;3463&quot; data-start=&quot;3414&quot;&gt;&lt;code data-end=&quot;3433&quot; data-start=&quot;3416&quot;&gt;JoinRoomCommand&lt;/code&gt; is validated and processed.&lt;/li&gt;&lt;li data-end=&quot;3519&quot; data-start=&quot;3464&quot;&gt;The actor emits &lt;code data-end=&quot;3499&quot; data-start=&quot;3482&quot;&gt;UserJoinedEvent&lt;/code&gt; to notify others.&lt;br&gt;&lt;/li&gt;" placeholders="1" id="HDtp9w7ZAtMnRDxFhko9-73">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="1422.5" y="640" width="480" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HDtp9w7ZAtMnRDxFhko9-74" value="UserJoinedEvent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1932.5" y="610" width="160" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
