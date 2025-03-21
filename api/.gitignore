@@ -25,4 +25,4 @@ metals/project/
 /.metals
 .metals/metals.log
 .vscode
-.scalafmt.conf
+
