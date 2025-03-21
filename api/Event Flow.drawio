@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="HDtp9w7ZAtMnRDxFhko9-32" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="25" y="110" width="995" height="350" as="geometry" />
+          <mxGeometry x="25" y="110" width="985" height="450" as="geometry" />
         </mxCell>
         <mxCell id="HDtp9w7ZAtMnRDxFhko9-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HDtp9w7ZAtMnRDxFhko9-19" target="HDtp9w7ZAtMnRDxFhko9-21">
           <mxGeometry relative="1" as="geometry" />
@@ -31,11 +31,29 @@
         <mxCell id="HDtp9w7ZAtMnRDxFhko9-23" value="SendMessageCommand" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="250" width="160" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="HDtp9w7ZAtMnRDxFhko9-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HDtp9w7ZAtMnRDxFhko9-24" target="HDtp9w7ZAtMnRDxFhko9-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="HDtp9w7ZAtMnRDxFhko9-24" value="ChatRoomActor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="820" y="250" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="HDtp9w7ZAtMnRDxFhko9-30" value="User Sends a Message" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="460" y="150" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HDtp9w7ZAtMnRDxFhko9-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HDtp9w7ZAtMnRDxFhko9-33" target="HDtp9w7ZAtMnRDxFhko9-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HDtp9w7ZAtMnRDxFhko9-33" value="MessageSentEvent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="370" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HDtp9w7ZAtMnRDxFhko9-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HDtp9w7ZAtMnRDxFhko9-35" target="HDtp9w7ZAtMnRDxFhko9-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HDtp9w7ZAtMnRDxFhko9-35" value="ChatEventHandler" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="370" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HDtp9w7ZAtMnRDxFhko9-37" value="Broadcast to users" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="370" width="160" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
