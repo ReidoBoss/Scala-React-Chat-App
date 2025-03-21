@@ -14,14 +14,14 @@ The system is designed with **MVC (without View)**, **Domain-Driven Design (DDD)
 │   │   ├── command_handlers/
 │   │   ├── events/
 │   │   ├── event_handlers/
+│   ├── controllers/
 │   ├── domain/
 │   │   ├── aggregates/
 │   │   ├── models/
 │   ├── infrastructure/
 │   │   ├── actors/
 │   │   ├── repositories/
-│   ├── interfaces/
-│   │   ├── controllers/
+
 ```
 
 ## Architectural Patterns
